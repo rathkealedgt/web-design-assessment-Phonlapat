@@ -1,0 +1,116 @@
+﻿body {
+    margin: auto;
+    padding: 50px;
+    color: #636762;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*---- Grid Setup Start ----*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "logo banner banner" 
+        "nav nav nav" 
+        "main main side" 
+        "footer footer footer";
+    grid-gap: 4px;
+}
+
+/*---- Grid Setup End ----*/
+
+/*---- Area styling Start ----*/
+
+.box {
+    border: solid 1px #000000;
+    padding: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+
+/*---- Area Specifica ----*/
+.logo {
+    grid-area: logo;
+    color: aqua;
+    background-color: #636762;
+    background-image: url(/images/logo.png);
+}
+
+
+.banner {
+    grid-area: banner;
+    color: greenyellow;
+    background-color: #636762;
+}
+
+.nav {
+    grid-area: nav;
+    color: Red;
+    background-color: #3d5fd4; 
+    font-size: 100%;
+    text-align: center;
+}
+
+.main {
+    grid-area: main;
+    color: black;
+    background-color: #cb904f;
+    font-size: 75%;
+}
+
+.side {
+    grid-area: side;
+    color: white;
+    background-color: #660402;
+    font-size: 75%;
+}
+
+.footer {
+    grid-area: footer;
+    color: pink;
+    background-color: #121636;
+    text-align: center;
+}
+    
+/*---- Area styling End ----*/
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*---- Navigation Styling ----*/
+.nav a {
+    font-weight:bold;
+}
+
+.nav a:visited, .nav a:link {
+    color: Yellow;
+}
+
+    .nav a:hover {
+        color: #d7b58b;
+        text-decoration: none;
+    }
+
+/*---- Side Bar Styling ----*/
+
+   .side a:visited, .side a:link {
+       color:greenyellow;
+   }
+
+.side a:hover {
+    color: yellow;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0 6px 20px 0 rgba(0,0,0,0.8);
+
+}
