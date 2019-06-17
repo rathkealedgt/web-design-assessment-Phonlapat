@@ -15,7 +15,10 @@
           background-repeat: no-repeat;
           color: white;">
     <h2>Conclude</h2>
-   
+    
+    <p>Eight known planets, the moon, as well as comets, asteroids and other space objects, revolve around the sun. The Sun is the largest object in the solar system. In fact, it accounts for 99% of the solar systems’ mass. 
+    <p>Astronomers estimate that the solar system is more than 4.5 billion years old.
+       
    
      
    
