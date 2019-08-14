@@ -15,7 +15,8 @@
     <p>Since its establishment, most US space exploration efforts have been led by NASA, including the Apollo Moon landing missions, the Skylab space station, and later the Space Shuttle. NASA is supporting the International Space Station and is overseeing the development of the Orion Multi-Purpose Crew Vehicle, the Space Launch System and Commercial Crew vehicles. 
     
     <p>The agency is also responsible for the Launch Services Program which provides oversight of launch operations and countdown management for unmanned launches.
-
+       
+    <p>Text sourced from https://en.wikipedia.org/wiki/NASA
         </div> <!-- Box main -->
 
 <div class="Box Side">
